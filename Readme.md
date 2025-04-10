@@ -1,27 +1,48 @@
 # Pneumonia Detection Web App
 
-## Project Overview
+## 🌐 Live Demo
 
-This project is a **deep learning-based web application** for detecting Pneumonia from chest X-ray images. It uses **three different models**—**CNN, VGG16, and ResNet-50**—to classify images as either **Normal** or **Pneumonia**. After comparison, **ResNet-50** performed the best and was saved as `my_pneumonia_detection_model.h5` for further use in the application. The application is built using **TensorFlow** for image classification and **Streamlit** for the web interface.
+👉 Try out the deployed app here: [https://detect-pneumonia.streamlit.app](https://detect-pneumonia.streamlit.app)
 
-## Features
+---
+
+## 🧠 Project Overview
+
+This project is a **deep learning-based web application** for detecting Pneumonia from chest X-ray images. It uses **three different models**—**CNN, VGG16, and ResNet-50**—to classify images as either **Normal** or **Pneumonia**. After comparison, **ResNet-50** performed the best and was saved as `my_pneumonia_detection_model.h5` for further use in the application.
+
+The application is built using **TensorFlow** for image classification and **Streamlit** for the web interface.
+
+---
+
+## 🚀 Features
 
 - Upload a **chest X-ray image** (`.jpg`, `.jpeg`, `.png`).
-- The app **preprocesses** the image and passes it through the trained ResNet-50 model.
+- The app **preprocesses** the image and passes it through the trained **ResNet-50** model.
 - Displays the **prediction (Normal / Pneumonia) with confidence score**.
 - **User-friendly web interface** using Streamlit.
 
-## Installation & Setup
+---
+
+## 🧪 Testing the App
+
+To test the model's performance yourself:
+- Use sample images from the `chest_xray/val/` folder.
+- These contain real **validation images** for both **Normal** and **Pneumonia** cases.
+
+---
+
+## ⚙️ Installation & Setup
 
 ### Prerequisites
 
-Make sure you have **Python 3.7+** installed on your system. You also need `pip` for package management.
+Make sure you have **Python 3.7+** installed. You also need `pip` for package management.
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/jatin019/Pneumonia-Detection.git
+cd Pneumonia-Detection
+
 ```
 
 ### Install Dependencies
@@ -36,7 +57,7 @@ Alternatively, install manually:
 pip install tensorflow numpy matplotlib streamlit
 ```
 
-## How to Run the Web App
+## ▶️ How to Run the Web App Locally
 
 1. Open a terminal or command prompt.
 2. Navigate to the project directory.
@@ -46,7 +67,7 @@ pip install tensorflow numpy matplotlib streamlit
    ```
 4. The web app will open in your **default web browser**.
 
-## Model & Prediction
+## 🧠 Model & Prediction Details
 
 - The application uses a pre-trained **ResNet-50 model (********`my_pneumonia_detection_model.h5`********\*\*\*\*)**.
 - Initially, three models (**CNN, VGG16, and ResNet-50**) were trained and compared.
