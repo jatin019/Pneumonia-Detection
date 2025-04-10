@@ -85,7 +85,7 @@ pip install tensorflow numpy matplotlib streamlit
 
 ## File Structure
 ```
-/your-project-folder
+/Pneumonia-Detection
 │── app.py                 # Streamlit web app
 │── my_pneumonia_detection_model.h5 # Best performing deep learning model (ResNet-50)
 │── requirements.txt        # List of dependencies
